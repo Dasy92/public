@@ -1,2 +1,1 @@
-chown -R root:root ./* && chmod -R 755 ./* && chown -R www:www storage
-
+yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
