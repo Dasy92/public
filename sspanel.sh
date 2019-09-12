@@ -1,1 +1,1 @@
-yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
+git clone -b master https://github.com/Anankke/SSPanel-Uim.git tmp && mv tmp/.git . && rm -rf tmp && git reset --hard
